@@ -15,8 +15,8 @@
   1.在Eclipse中的Run Configuration中在Arugments中添加参数（诗歌）
   ![image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/1.png)
   2.利用循环将诗歌进行切片操作，并且添加标点符号
-  ![add image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/2.PNG)
+  ![image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/2.PNG)
   3.根据用户输入的词通过Indexof方法统计词频
-  ![add image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/3.PNG)
-  ![add image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/4.PNG)
-  ![add image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/5.PNG)
+  ![image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/3.PNG)
+  ![image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/4.PNG)
+  ![image](https://github.com/Kukdo/Seven-words-poem/tree/master/images/5.PNG)
