@@ -8,5 +8,6 @@
 2.	允许提供输入参数，统计古诗中某个字或词出现的次数
 3.	考虑操作中可能出现的异常，在程序中设计异常处理程序
 注意： 输入的内容，利用main方法中的args数组传递
-//
-To make a long string ( peom without puctuation and space ) into a form contains seven words and add punctuations automatically, to count the specific word's appearing times.
+  
+  //
+  To make a long string ( peom without puctuation and space ) into a form contains seven words and add punctuations automatically, to count the specific word's appearing times.
