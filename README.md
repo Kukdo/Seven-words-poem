@@ -16,3 +16,4 @@
   ![image1](https://github.com/Kukdo/Seven-words-poem/tree/master/images/1.PNG)
   2.利用循环将诗歌进行切片操作，并且添加标点符号
   3.根据用户输入的词通过Indexof方法统计词频
+  ![image5](https://github.com/Kukdo/Seven-words-poem/blob/master/images/5.PNG)
