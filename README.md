@@ -86,3 +86,6 @@ public static void main(String[] args)
 ##### 例3：查找“从此”出现的次数
 ![image5](https://github.com/Kukdo/Seven-words-poem/blob/master/images/5.PNG)
 ---
+### 作者
+#### Kukdo 
+##### Ps. First time create my own repository
