@@ -89,4 +89,4 @@ public static void main(String[] args)
 ### Author
 #### Kukdo 
 ##### Ps. First time creating my own repository
-#### Updated Time: 2019-11-16 4:00 PM
+#### Update Time: 2019-11-16 4:00 PM
