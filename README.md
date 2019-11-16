@@ -9,13 +9,23 @@
 #### 2.	允许提供输入参数，统计古诗中某个字或词出现的次数
 #### 3.	考虑操作中可能出现的异常，在程序中设计异常处理程序
 ##### 注意： 输入的内容，利用main方法中的args数组传递
-#### To make a long string ( peom without puctuation and space ) into a form contains seven words and add punctuations automatically, to count the specific word's appearing times.
+#### Main funtion: To make a long string ( peom without puctuation and space ) into a form contains seven words and add punctuations automatically, to count the specific word's appearing times.
+### 编译环境
+#### java version "12.0.1" 2019-04-16
+#### Java(TM) SE Runtime Environment (build 12.0.1+12)
+#### Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing)
+#### Eclipse IDE for Enterprise Java Developers.
+#### Version: 2019-06 (4.12.0)
+#### Build id: 20190614-1200
 ### 操作步骤：
 #### 1.在Eclipse中的Run Configuration中在Arugments中添加参数（诗歌）
+##### 打开Eclipse，在上述功能栏中选择Run，再选择Run Configuration，最后在Arugements中添加字符串
 ![image1](https://github.com/Kukdo/Seven-words-poem/blob/master/images/1.PNG)
 #### 2.利用循环将诗歌进行切片操作，并且添加标点符号
+##### 主要利用循环操作，每七个字切片一次，然后加上逗号或者句号
 ![image2](https://github.com/Kukdo/Seven-words-poem/blob/master/images/2.PNG)
-#### 3.根据用户输入的词通过Indexof方法统计词频
+#### 3.根据用户输入的词统计词频
+##### 输入通过BufferedReader的函数，而统计主要通过String中的Indexof和subString的方法，结合达到统计词出现的次数的功能
 ##### 例1：查找“三”出现的次数
 ![image3](https://github.com/Kukdo/Seven-words-poem/blob/master/images/3.PNG)
 ##### 例2：查找“三千”出现的次数
