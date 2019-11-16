@@ -88,4 +88,5 @@ public static void main(String[] args)
 ---
 ### 作者
 #### Kukdo 
-##### Ps. First time create my own repository
+##### Ps. First time creating my own repository
+#### Time: 2019-11-16 4:00 PM
