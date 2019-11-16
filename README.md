@@ -25,13 +25,58 @@
 ---
 ### 操作步骤：
 #### 1.在Eclipse中的Run Configuration中在Arugments中添加参数（诗歌）
-##### 打开Eclipse，在上述功能栏中选择Run，再选择Run Configuration，最后在Arugements中添加字符串（数组）
+##### 打开Eclipse，在上述功能栏中选择Run，再选择Run Configuration，最后在Arugements中添加字符串（数组），之后在运行的时候编译器就会把字符串传参给args，即可调用，传参位置如下：
+~~~ 
+public static void main(String[] args) 
+~~~
 ![image1](https://github.com/Kukdo/Seven-words-poem/blob/master/images/1.PNG)
 #### 2.利用循环将诗歌进行切片操作，并且添加标点符号
-##### 主要利用循环操作，每七个字切片一次，然后加上逗号或者句号
+##### 主要利用循环操作，每七个字切片一次，然后加上逗号或者句号，实现代码如下：
+~~~
+//split model
+	public static void printsplit(String strsplit) {
+		for (int i = 0; i<strsplit.length(); i = i+7) {
+			if( i%2 == 0 ){
+				String split = strsplit.substring(i, i+7);
+				System.out.print(split+ "，");			
+			} 
+			if( i%2 == 1 ){
+				String split = strsplit.substring(i, i+7);
+				System.out.print(split+ "。" + "\n");			
+			} 
+		}	
+	}
+~~~
 ![image2](https://github.com/Kukdo/Seven-words-poem/blob/master/images/2.PNG)
 #### 3.根据用户输入的词统计词频
-##### 输入通过BufferedReader的函数，而统计主要通过String中的IndexOf和substring的方法，结合达到统计词出现的次数的功能
+##### 输入通过BufferedReader的函数，而统计主要利用String的IndexOf和substring的方法，进而达到统计词出现的次数的功能，实现代码如下：
+~~~
+    	// input and Exception model
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));   
+        String str = null;
+        while(true){
+            try {
+                System.out.println("Please type the word or words you want to count: " );
+                str = br.readLine();
+            }catch(IOException e){
+                e.printStackTrace();
+                System.out.println("IO's type error!");
+            }
+            //System.out.print(str+"\n");
+            break;
+        }
+        
+	//count model
+	public static int count(String srcStr, String findStr) {
+		int count = 0;
+		int index = 0;
+		while ((index = srcStr.indexOf(findStr, index)) != -1) {// if key exists in str
+			index = index + findStr.length();
+			count++; // +1
+		}
+		return count;
+	}
+~~~
 ##### 例1：查找“三”出现的次数
 ![image3](https://github.com/Kukdo/Seven-words-poem/blob/master/images/3.PNG)
 ##### 例2：查找“三千”出现的次数
