@@ -25,10 +25,11 @@
 ---
 ### 操作步骤：
 #### 1.在Eclipse中的Run Configuration中在Arugments中添加参数（诗歌）
-##### 打开Eclipse，在上述功能栏中选择Run，再选择Run Configuration，最后在Arugements中添加字符串（数组），之后在运行的时候编译器就会把字符串传参给args，即可调用，传参位置如下：
+##### 打开Eclipse，在顶部工具栏中选择Run，再选择Run Configuration，最后在Arugements中添加字符串（数组），之后在运行的时候编译器就会把字符串传参给args，即可调用，传参位置如下：
 ~~~ 
 public static void main(String[] args) 
 ~~~
+##### 示例图：
 ![image1](https://github.com/Kukdo/Seven-words-poem/blob/master/images/1.PNG)
 #### 2.利用循环将诗歌进行切片操作，并且添加标点符号
 ##### 主要利用循环操作，每七个字切片一次，然后加上逗号或者句号，实现代码如下：
@@ -47,6 +48,7 @@ public static void main(String[] args)
 		}	
 	}
 ~~~
+##### 输出示例图：
 ![image2](https://github.com/Kukdo/Seven-words-poem/blob/master/images/2.PNG)
 #### 3.根据用户输入的词统计词频
 ##### 输入通过BufferedReader的函数，而统计主要利用String的IndexOf和substring的方法，进而达到统计词出现的次数的功能，实现代码如下：
