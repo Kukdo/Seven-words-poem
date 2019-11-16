@@ -15,6 +15,9 @@
 #### 2.利用循环将诗歌进行切片操作，并且添加标点符号
 ![image2](https://github.com/Kukdo/Seven-words-poem/blob/master/images/2.PNG)
 #### 3.根据用户输入的词通过Indexof方法统计词频
+##### 例1：查找“三”出现的次数
 ![image3](https://github.com/Kukdo/Seven-words-poem/blob/master/images/3.PNG)
+##### 例2：查找“三千”出现的次数
 ![image4](https://github.com/Kukdo/Seven-words-poem/blob/master/images/4.PNG)
+##### 例3：查找“从此”出现的次数
 ![image5](https://github.com/Kukdo/Seven-words-poem/blob/master/images/5.PNG)
