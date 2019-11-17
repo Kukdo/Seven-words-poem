@@ -23,7 +23,7 @@
 #### Version: 2019-06 (4.12.0)
 #### Build id: 20190614-1200
 ---
-### 操作步骤：
+### 操作步骤及核心代码：
 #### 1.在Eclipse中的Run Configuration中在Arugments中添加参数（诗歌）
 ##### 打开Eclipse，在顶部工具栏中选择Run，再选择Run Configuration，最后在Arugements中添加字符串（数组），之后在运行的时候编译器就会把字符串传参给args，即可调用，传参位置如下：
 ~~~ 
@@ -85,6 +85,10 @@ public static void main(String[] args)
 ![image4](https://github.com/Kukdo/Seven-words-poem/blob/master/images/4.PNG)
 ##### 例3：查找“从此”出现的次数
 ![image5](https://github.com/Kukdo/Seven-words-poem/blob/master/images/5.PNG)
+---
+### 实验感想
+#### 本次实验主要是针对字符串的实验，通过本次实验我掌握了字符串的部分操作，能够灵活的运用切片对字符串进行分隔，以及字符串的子串的索引查询。相信之后对于数据处理会有很大的帮助，本次实验较为简单，理清思路之后便能大概构思出代码要用的方法，无论哪次实验，培养的还是编程思想和思维逻辑。
+#### 个人认为无论是什么编程语言，最基本的还是逻辑，然后才是各种语言的语法和方法。只要逻辑清晰，思路正确，代码的大体便成了型。再通过不断地调试，不断地改进，最终总会达到想要的效果。实际上每一次实验，每一次课程设计都是锻炼思维逻辑以及强化知识储备的过程。
 ---
 ### Author
 #### Kukdo 
